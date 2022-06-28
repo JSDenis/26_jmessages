@@ -1,0 +1,15 @@
+body.dark{
+  background-color: #1a2236;
+  color: rgba(255,255,255,.75);
+}
+
+.messages.hide{
+  opacity: 0;
+  transition: 0.4s;
+}
+
+
+
+@import "main-mobile.scss";
+@import "./app.scss";
+@import "../lib/bootstrap.css"
